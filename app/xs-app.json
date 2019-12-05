@@ -1,0 +1,17 @@
+{
+  "welcomeFile": "app/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/app/(.*)$",
+      "target": "$1",
+      "localDir": "."
+    }, {
+      "source":"^(.*)$",
+      "destination": "srv_api"      
+    }
+  ]
+}

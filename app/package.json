@@ -1,0 +1,12 @@
+{
+  "name": "myUI5App",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "@sap/approuter": "^6.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  }
+}
